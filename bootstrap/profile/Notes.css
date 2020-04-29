@@ -1,0 +1,32 @@
+Notes
+Advanced styling with css 
+
+.media queries- viewport size
+.grid layout- relative sizing 
+.flexible images 
+
+fluid measurement
+.px 1/96 th of an inch
+-pt 1/72 of an inch 
+relative measurements- relative to their parents, neighbers , screen size, like percentage measurement, % , going to check the containers in, lets say 75% of that. 
+
+em- the font size of the letter m elelment. smaller smaller 
+
+rem- font sie of the root element - same eize
+
+1em = 12pt = 16px = 100% 
+
+em, % only adjusted. 
+
+viewport vw
+width 1/100th of the width of the viewport.
+vh
+1/100th 
+
+.colum {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-left: 3.2%;
+
+

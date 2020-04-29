@@ -1,0 +1,109 @@
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-wrapper{
+	width: 100%;
+	height: 50px;
+}
+.nav-wrapper input[type=text] {
+  float: left;
+  padding: 5px;
+  border: none;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 300px;
+  border: 1px solid rgba(0,0,0,0.151);
+}
+.nav-wrapper a{
+	float: right;
+	text-decoration: none;
+	color: black;
+	padding: 14px 20px;
+	font-size: 17px;
+}
+.nav-wrapper a:hover{
+	background-color: #F2F2F2;
+}
+
+.cover-photo {
+	position: relative;
+	min-height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.over-img{
+	position: absolute;
+	top: 35%;
+	bottom: 80%;
+	margin-left: 600px;
+	margin-right: 600px;
+	border-radius: 50%;
+}
+.container{
+	position
+
+}
+.shop-name{
+	margin-top: 70px;
+	margin-left: 600px;
+	font-size: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  color: white;
+  text-align: center;
+  border: 1px solid green;
+}
+
+----------------------------
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset= "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Indie</title>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+	<div class="header-wrapper">
+		<div class="container">
+			<div class="nav-wrapper">
+				<nav>
+					<input type="text" placeholder="Search">
+			    	<a href="#about">Purpose</a>
+					<a href="sign-in">Incorporate</a>
+				</nav>
+			</div>
+		</div>
+		<div class="cover-image-wrapper">
+			<img src="leo.jpg" width="1320px" height="250px" class="cover-photo">
+			<img src="yesmin.png" width="150" height="150" alt="My Pic" class="over-img">
+	    </div>
+	</div>
+	<div class="shop-name">
+		<h1>Blue Berry</h1>
+	</div>
+		
+	</div>
+
+	<div>
+		<footer>
+			Contact <a href="farhanayesmin13@gmail.com">indie.shop</a>
+		</footer>
+	</div>
+</body>
+
+</html>
